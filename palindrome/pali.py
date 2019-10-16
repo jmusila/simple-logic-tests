@@ -1,5 +1,5 @@
 # checking if a number is a palindrome
-# using Big O of n O(n)
+# using Big O of n (O(n))
 
 
 def string_is_palindrome(string):
@@ -16,7 +16,6 @@ def string_is_palindrome(string):
 
 string_input = input("Please enter a palindrome string : ")
 string = string_is_palindrome(string_input)
-print('Is it True or False : ', string)
 
 if(string == True):
     print('This is a Palindrome string')
