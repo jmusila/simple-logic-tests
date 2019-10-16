@@ -10,6 +10,8 @@ def reverse(str1):
 
 
 string = input("Please enter your own String : ")
+
+# check for strings
 str1 = reverse(string)
 print("String in reverse Order :  ", str1)
 
