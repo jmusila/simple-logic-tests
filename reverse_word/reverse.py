@@ -1,6 +1,7 @@
 # This file contains a function to reverse word,
-# For example, given the word Jonathan,
-# Then it shall be reversed to nahtanoJ
+# For example, given the word Geek coder,
+# Then it shall be reversed to coder Geek
+
 
 def reverseWords(input):
 
@@ -10,9 +11,10 @@ def reverseWords(input):
     inputWords = inputWords[-1::-1]
 
     # join the spaced words
-    reversed_words  = " ".join(inputWords)
+    reversed_words = " ".join(inputWords)
 
     return reversed_words
+
 
 if __name__ == "__main__":
     input = "I am really becoming good at this"
