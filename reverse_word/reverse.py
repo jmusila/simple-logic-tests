@@ -6,4 +6,7 @@ def revrseWords(input):
 
     # split the words in the string separated by space
     inputWords = input.split(" ")
+
+    inputWords = inputWords[-1::-1]
+
     
