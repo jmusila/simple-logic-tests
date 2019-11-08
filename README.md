@@ -8,3 +8,4 @@ Simple logic tests using Python
 - These tests include
   - Palindrome Checks
   - Fibonacci Checks
+  - Reverse Word Checks
